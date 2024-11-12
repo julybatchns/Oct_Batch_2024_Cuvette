@@ -1,0 +1,23 @@
+.container {
+  background-color: pink;
+  color: orangered;
+}
+h1 {
+  color: teal;
+}
+p {
+  background-color: violet;
+}
+
+#container {
+  background-color: black !important;
+}
+
+/* 1. Inline CSS */
+/* 2. Internal CSS */
+/* 3. External CSS */
+
+/* Inline > Internal > External */
+/* id > class > tag */
+
+/* Different Selectors */

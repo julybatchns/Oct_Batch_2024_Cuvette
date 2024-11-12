@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* .innerContainer1 {
+  background-color: green;
+  color: blue;
+  background-color: red;
+}
+
+.innerContainer {
+  background-color: red;
+  color: blue;
+}
+
+#innerContId {
+  background-color: chartreuse;
+  color: black;
+} */
+
+.description1 {
+  padding: 10px;
+  background-color: yellowgreen;
+  border: 2px solid #000000;
+  margin: 20px;
+}
+
+.siblingContainer img {
+}
+
+.sampleImg {
+}
+
+#sampleImgId {
+}
+
+img[alt="sample"] {
+  width: 20%;
+}
+
+/* Descendant Selector ( ancestor descendant ) */
+
+/* .container #innerContId .description1 {
+  background-color: purple;
+} */
+
+.purpleME {
+  background-color: purple;
+}
+
+.superContainer .box {
+  width: 50px;
+  height: 50px;
+  padding: 30px;
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+}
+
+.containerr {
+  width: 500px;
+  height: 100px;
+  background-color: skyblue;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.ball {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ballA {
+  background-color: orangered;
+}
+.ballB {
+  background-color: purple;
+}
+.ballC {
+  background-color: black;
+  color: white;
+}
+.ballD {
+  background-color: yellow;
+}
+.ballE {
+  background-color: blue;
+}
+.ballF {
+  background-color: green;
+}
+
+.ballB ~ .ballC {
+  background-color: hotpink;
+}
+
+.innerContainer + .innerContainer {
+  background-color: darkred;
+}
+
+.ballE:hover {
+  background-color: turquoise;
+  width: 100px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.ball:last-child {
+  background-color: darkslategrey;
+  width: 100px;
+  height: 100px;
+}
+
+p::before {
+  content: "Note: ";
+  font-weight: bold;
+}
+
+p::after {
+  content: "😀";
+  font-weight: bold;
+}
