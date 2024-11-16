@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-.container {
+/* .container {
   width: 60%;
   background-color: red;
   padding: 20px;
@@ -24,7 +24,7 @@
 }
 .box3 {
   background-color: darkorchid;
-}
+} */
 
 /* position: 
 
@@ -33,3 +33,27 @@ relative,
 absolute, 
 fixed, 
 sticky */
+
+.container {
+  padding: 20px;
+}
+
+.content {
+  position: relative;
+  padding: 20px;
+  border: 1px solid #ddd;
+}
+
+.sticky {
+  position: sticky;
+  top: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-bottom: 15px;
+}

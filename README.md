@@ -37,3 +37,10 @@ Comparison operators: ==, !=, <, >, which compare values.
 
 - Semantic HTML Elements (header, footer, sidebar, article, nav, )
 - Non-Semantic HTML Elements (div)
+
+# CSS Units
+
+- CSS units are used to define lengths, sizes, spacing, and other measurements in styles.
+
+1. Absolute Units - pixel (px) - A pixel is a tiny unit of measurement relative to the screen's resolution.
+2. Relative Units - %, vh, vw, rem, em
