@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 60%;
+  background-color: red;
+  padding: 20px;
+  border: 2px solid black;
+}
+
+.box {
+  width: 35px;
+  height: 35px;
+  border: 1px solid blue;
+}
+
+.box1 {
+  background-color: green;
+}
+.box2 {
+  background-color: yellow;
+}
+.box3 {
+  background-color: darkorchid;
+}
+
+/* position: 
+
+static, 
+relative, 
+absolute, 
+fixed, 
+sticky */

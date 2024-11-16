@@ -1,0 +1,49 @@
+.flexContainer {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: blue;
+  width: 350px;
+  height: 100px;
+  border: 2px solid black;
+  flex-wrap: wrap;
+}
+
+.flexItem {
+  width: 25px;
+  height: 25px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  /* margin-right: 40px; */
+}
+
+.flexItem1 {
+  background-color: violet;
+}
+.flexItem2 {
+  background-color: darkmagenta;
+}
+.flexItem3 {
+  background-color: indigo;
+}
+.flexItem4 {
+  background-color: blue;
+}
+.flexItem5 {
+  background-color: yellow;
+}
+.flexItem6 {
+  background-color: green;
+}
+.flexItem7 {
+  background-color: tomato;
+}
+.flexItem8 {
+  background-color: orangered;
+}
+.flexItem9 {
+  background-color: paleturquoise;
+}
+.flexItem10 {
+  background-color: red;
+}
