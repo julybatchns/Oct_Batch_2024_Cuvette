@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Container for the Grid */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: auto;
+  gap: 15px;
+  padding: 20px;
+}
+
+.container div {
+  background-color: #87ceeb;
+  border: 2px solid #000;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 20px;
+}
+
+.header {
+  grid-column: span 5;
+  background-color: #4682b4;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.footer {
+  grid-column: span 4;
+  background-color: #2e8b57;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.sidebar {
+  grid-row: span 2;
+  background-color: #ffd700;
+}

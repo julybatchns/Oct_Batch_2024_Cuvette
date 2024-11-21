@@ -1,0 +1,58 @@
+/* Common Stylings */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  padding: 10px 20px;
+  color: #fff;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.project {
+  border: 1px solid #ddd;
+  padding: 15px;
+  background-color: darkmagenta;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.project:hover {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    margin: 10px 0;
+  }
+  .navbar {
+    margin-top: 10px;
+  }
+}
