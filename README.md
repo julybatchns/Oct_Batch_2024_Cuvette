@@ -44,3 +44,7 @@ Comparison operators: ==, !=, <, >, which compare values.
 
 1. Absolute Units - pixel (px) - A pixel is a tiny unit of measurement relative to the screen's resolution.
 2. Relative Units - %, vh, vw, rem, em
+
+# CSS Grid
+
+- CSS Grid is a powerful layout system in CSS that provides a way to create flexible, responsive, and two-dimensional layouts. It allows for arranging elements in rows and columns with ease, making it suitable for both simple and complex designs.

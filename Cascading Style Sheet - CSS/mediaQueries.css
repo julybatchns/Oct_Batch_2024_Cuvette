@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  padding: 25px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.box {
+  width: 30px;
+  height: 30px;
+  border: 1px solid green;
+  padding: 20px;
+  background-color: chocolate;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    flex-direction: column;
+    background-color: darkgreen;
+  }
+
+  .box {
+    background-color: darkorchid;
+  }
+}
+
+/* min-width
+width
+max-width */
+
+/* Breakpoints */
+
+/* 360px < 375px < 460px < 520px < 768px < 990px < 1024px (Mobiles)
+1260px > 1366px > 1440px > 1600px > 1920px Laptops/TV */
