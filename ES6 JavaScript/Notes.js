@@ -7,3 +7,13 @@
 // Terminologies
 
 // Function, Variable, Datatypes, Operator, Method, class, keywords, literals, value, property.
+
+// ! JavaScript is a high-level programming language used for web development. It is single-threaded, meaning it can only execute one command at a time, and is interpreted, meaning it is not compiled before execution.
+
+// * V8 is a high-performance JavaScript engine developed by Google and used in their Chrome browser, as well as other applications. It compiles JavaScript code to machine code, improving its performance.
+
+// ? JavaScript is primarily used for client-side scripting, meaning it runs on the user's web browser, and is used to create dynamic and interactive web pages. It is often used in conjunction with HTML and CSS.
+
+// # Execution Context
+
+// ! JavaScript Execution Context is the environment in which JavaScript code is executed. It contains information about the variables, functions, and objects that are available to the code being executed.
