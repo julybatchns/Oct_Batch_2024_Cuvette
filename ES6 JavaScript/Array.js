@@ -79,3 +79,33 @@ fruits.push("Strawberry");
 
 let filtered = fruits.filter((fruit) => fruit.length > 5);
 console.log(filtered);
+
+// * The reduce method in JavaScript is a powerful function available on arrays. It processes each element in the array, applying a callback function, and returns a single accumulated value.
+
+// array.reduce(callback, initialValue);
+
+const numbers = [1, 2, 3, 4, 5, 6];
+
+const sum = numbers.reduce((accumulator, currentValue) => {
+  console.log(accumulator + currentValue);
+  return accumulator + currentValue;
+}, 0);
+
+// ! accumulator = 0, currentValue = 1 → accumulator = 0 + 1 = 1
+// accumulator = 1, currentValue = 2 → accumulator = 1 + 2 = 3
+
+// console.log(sum);
+
+// Flatten a Nested Array
+
+const nestedArray = [
+  [1, 2],
+  [3, 4],
+  [5, 6],
+];
+
+const flattened = nestedArray.reduce((accumulator, currentValue) => {
+  return accumulator.concat(currentValue);
+}, []);
+
+console.log(flattened);
