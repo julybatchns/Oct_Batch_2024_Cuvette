@@ -13,8 +13,15 @@
   <body>
     <h1>JavaScript</h1>
     <script>
-      alert("Hellooooo");
-      console.log("I am hereeeee");
+      let name = "Rohan";
+
+      let obj2 = {
+        name: "Satish",
+        greet: () => console.log("Hello", this.name),
+      };
+
+      obj2.greet();
+      array.map();
     </script>
   </body>
 </html>
