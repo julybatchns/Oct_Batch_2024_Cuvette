@@ -10,4 +10,4 @@ button.addEventListener("click", showMessage);
 setTimeout(() => {
   button.removeEventListener("click", showMessage);
   console.log("Event Listener removed.");
-}, 5000);
+}, 100);
