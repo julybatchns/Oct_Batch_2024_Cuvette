@@ -17,3 +17,37 @@
 // # Execution Context
 
 // ! JavaScript Execution Context is the environment in which JavaScript code is executed. It contains information about the variables, functions, and objects that are available to the code being executed.
+
+const document = {
+  html: {
+    head: {
+      meta: "utf",
+      meta: "utf",
+      meta: "utf",
+      title: "DOM",
+    },
+    body: {
+      h1: "DOM",
+      p: "dfsfsf",
+      div: {
+        section: "dasfd",
+      },
+    },
+  },
+};
+
+//? The Document Object Model (DOM) is a programming interface for web documents. It represents the structure of a web page as a tree of objects, allowing developers to interact with and manipulate the HTML and CSS of a webpage programmatically using JavaScript.
+
+// Structure
+// Styling
+// Content
+
+// ! 1. DOM Structure
+// ? The DOM represents an HTML document as a tree structure of nodes.
+// * Document node: Represents the entire document.
+// ? Element nodes: Represent HTML elements (e.g., <div>, <p>).
+// ! Text nodes: Represent text within an element.
+// ? Attribute nodes: Represent attributes of elements (e.g., class, id).
+
+// ! 2. Accessing the DOM
+// document.getElementById("")
